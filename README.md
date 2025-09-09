@@ -1,15 +1,32 @@
-# Ecommerce de guitarras
-Proyecto creado en Vite + React + TypeScript + Tailwind CSS
+# 🎸 Ecommerce de Guitarras  
 
-## 🚀 Demo
+Proyecto creado con **Vite + React + TypeScript + Tailwind CSS**.  
+Un pequeño ecommerce donde se pueden añadir guitarras al carrito, con persistencia en Local Storage y cálculos optimizados.  
 
-[¡Pruébame aquí!](https://aranda-react-guitar-ecommerce.netlify.app/)
+---
 
-## 🛠️ Tecnologías
+## 🚀 Demo  
+👉 [Pruébame aquí](https://aranda-react-guitar-ecommerce.netlify.app/)  
 
-- **Frontend**: [React 19](https://reactjs.org/) con TypeScript
-- **Estilos**: [TailwindCSS 4](https://tailwindcss.com/)
-- Uso de Custom Hook con useState
-- Uso de useMemo para optimizar cálculos derivados del state
-- Gestión de Local Storage
-- Limitación de compra a 5 unidades
+---
+
+## 🖼️ Vista previa  
+![Captura del proyecto](./screenshot.png)  
+
+---
+
+## 🛠️ Tecnologías  
+- **Frontend**: [React 19](https://reactjs.org/) + TypeScript  
+- **Estilos**: [TailwindCSS 4](https://tailwindcss.com/)  
+- **Estado**: Hooks (`useState`, `useMemo`)  
+- **Persistencia**: Local Storage  
+- **Build Tool**: [Vite](https://vitejs.dev/)  
+
+---
+
+## ✨ Funcionalidades  
+- Catálogo de guitarras con opción de compra  
+- Carrito con persistencia en **Local Storage**  
+- Cálculo de totales optimizado con `useMemo`  
+- Límite de compra: máximo **5 unidades por producto**  
+- Estilos **responsiv**
